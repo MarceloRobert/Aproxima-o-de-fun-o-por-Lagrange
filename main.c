@@ -3,16 +3,19 @@
 #include <math.h>
 
 /*
-Autor: Marcelo Robert Santos
+Autor: Marcelo Robert Santos - CCO
+Matrícula: 2020002777
 CIC250 - Cálculo numérico para computação
 Professor: Carlos Minoru Tamaki
+UNIFEI - Universidade Federal de Itajubá
 Última modificação: 05/07/2021
 */
 
 /*
 recebe os valores iniciais de x e f(x)
-encontrar os Ls
-encontrar g
+encontra os Ls
+encontra g
+encontra f(a), sendo x=a dado pelo usuário
 */
 
 int main(void){
@@ -111,7 +114,7 @@ int main(void){
 	for(i=0; i<n; i++){
 		if(i==n-1){
 			if(g[i] >= 0)
-				printf("+"); //para deixar mais fáicl de entender
+				printf("+"); //para deixar mais fácil de entender
 			printf("%lf ", g[i]);
 		} else {
 			if(g[i] >= 0)
